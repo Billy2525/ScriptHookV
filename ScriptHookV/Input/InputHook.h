@@ -15,4 +15,6 @@ namespace InputHook
 	static LRESULT APIENTRY WndProc( HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam );
 }
 
+bool isKeyPressedOnce(bool& bIsPressed, DWORD vk);
+
 #endif // __INPUT_HOOK_H__
